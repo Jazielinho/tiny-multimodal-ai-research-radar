@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tiny-multimodal-ai-research-radar"
+version = "0.1.0"
+description = "A tiny AI research radar with LLM, RAG, multimodal and agentic components."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Jahaziel Ponce Sánchez" }
+]
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "pydantic>=2.7",
+  "python-dotenv>=1.0",
+  "typer>=0.12",
+  "rich>=13.7",
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "scikit-learn>=1.5",
+  "pymupdf>=1.24",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2",
+  "ruff>=0.5",
+  "mypy>=1.10",
+]
+rag = [
+  "sentence-transformers>=3.0",
+  "faiss-cpu>=1.8",
+]
+ui = [
+  "streamlit>=1.36",
+]
+ml = [
+  "torch>=2.3",
+  "matplotlib>=3.9",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
