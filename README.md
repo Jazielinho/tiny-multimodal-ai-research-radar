@@ -32,11 +32,7 @@ The final system should help a user:
 
 **1 July 2026 — 31 August 2026**
 
-This repository is connected to the sprint operating system in Google Drive:
-
-- Master Plan: https://docs.google.com/document/d/1RX_KBJVQVv8YqRWywn7ABTN7cUMqzC3v47qbJqWeezQ/edit
-- Weekly Reviews: https://docs.google.com/document/d/1LquySE40hljddDGU_BAiTvYb707mia3DjLecGhYgBXQ/edit
-- Sprint Tracker: https://docs.google.com/spreadsheets/d/1os_1po7sSk5Wj7gj5dxqsRcof0tYch-I_PwVhbDfwvo/edit
+This repository is part of a private sprint operating system used for planning, weekly reviews, personal tracking and coaching. Public documentation lives in this repository; private planning notes stay outside GitHub.
 
 ## Repository structure
 
