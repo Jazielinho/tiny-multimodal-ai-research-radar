@@ -1,0 +1,16 @@
+Tiny models are useful because they make ideas visible.
+
+A language model learns to predict the next token.
+A token can be a character, a word, or a subword.
+In this first experiment, we use characters because they are easy to inspect.
+
+Research radar reads papers.
+Research radar retrieves context.
+Research radar explains evidence.
+Research radar should say what it knows and what it does not know.
+
+Build first.
+Read to unblock.
+Document evidence.
+Keep the pipeline small.
+Make the tests pass.
