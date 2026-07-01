@@ -9,8 +9,18 @@ Created planning artifacts for Week 1.5:
 - `docs/experiments/mini-gpt-plan.md`
 - `docs/experiments/mini-gpt-task-01-tokenizer-dataloader.md`
 - `docs/experiments/mini-gpt-reading-notes.md`
+- `docs/experiments/mini-gpt-implementation-contract.md`
 - `tests/fixtures/mini_gpt_corpus.txt`
 - `src/research_radar/mini_gpt/__init__.py`
+
+Setup commits:
+
+- `4cfbf29` — Add Mini GPT experiment plan
+- `eab0090` — Add Mini GPT tokenizer and dataloader task
+- `bdbae47` — Add Mini GPT sample corpus fixture
+- `86e26d7` — Add Mini GPT package skeleton
+- `8dedda7` — Add Mini GPT reading notes template
+- `2186821` — Add Mini GPT implementation contract
 
 Next human task:
 
