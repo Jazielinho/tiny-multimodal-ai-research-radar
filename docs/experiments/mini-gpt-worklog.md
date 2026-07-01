@@ -21,6 +21,7 @@ Setup commits:
 - `86e26d7` — Add Mini GPT package skeleton
 - `8dedda7` — Add Mini GPT reading notes template
 - `2186821` — Add Mini GPT implementation contract
+- `6d286aa` — Update Mini GPT worklog with setup commits
 
 Next human task:
 
