@@ -38,32 +38,62 @@ Usar `uv` con Python 3.11 como entorno local del proyecto. Esta versión coincid
 
 ### Siguiente paso
 
-Hacer commit de esta evidencia de setup y continuar con el siguiente pendiente de Week 1: preparar el primer borrador de post público.
+Actualizar esta review con la evidencia real y preparar Week 1.5 como pista de despegue para Mini GPT, sin adelantar toda la Semana 2.
+
+## 2026-07-01 — Borrador interno y Week 1.5
+
+### Contexto
+
+La parte técnica principal de Week 1 quedó adelantada: repo creado, documentación base preparada, setup local verificado, pruebas ejecutadas y borrador interno del primer post añadido al repo.
+
+La semana no se cierra formalmente hasta la review del domingo, pero se abre una fase controlada llamada **Week 1.5 — Mini GPT runway** para reducir riesgo antes de empezar la Semana 2.
+
+### Acciones
+
+- Borrador interno del primer post creado en `docs/posts/week-01-starting-the-sprint.md`: OK
+- Evidencia de setup local subida en el commit `a346fe4`: OK
+- Borrador interno y progreso de Week 1 subidos en el commit `90e1ca1`: OK
+- Issue #2 creado para Week 1.5 — Mini GPT runway: OK
+
+### Decisión
+
+La publicación pública queda bloqueada hasta tener un hito técnico más fuerte: Mini GPT funcional, RAG con citas, evaluación real, experimento multimodal o demo.
+
+### Siguiente paso
+
+Crear `docs/experiments/mini-gpt-plan.md` con objetivo, alcance, dataset candidato, tokenizer/data-loader, métrica mínima y límites.
 
 ## Promised deliverables
 
-- [ ] Repository created
-- [ ] README created
-- [ ] Architecture documented
-- [ ] Paper list created
-- [ ] Basic ingestion script
-- [ ] First public post
+- [x] Repository created
+- [x] README created
+- [x] Architecture documented
+- [x] Paper list created
+- [x] Basic ingestion script
+- [x] First post draft created as internal material
+- [ ] Weekly review completed on Sunday
 
 ## Evidence
 
-- Repo:
-- Commit: pending for local setup evidence
-- Post:
-- Video/explanation:
-- Demo/capture:
+- Repo: https://github.com/Jazielinho/tiny-multimodal-ai-research-radar
+- Setup commit: `a346fe4` — Add local setup verification for Week 1 review
+- Post/progress commit: `90e1ca1` — Add Week 1 sprint kickoff and progress documentation
+- Post draft: `docs/posts/week-01-starting-the-sprint.md`
+- Week 1.5 issue: https://github.com/Jazielinho/tiny-multimodal-ai-research-radar/issues/2
+- Video/explanation: pending
+- Demo/capture: pending
 
 ## What I learned
 
--
+- La base del proyecto cuenta: entorno, tests, lint, documentación y commits son evidencia real.
+- No hace falta publicar por publicar. La visibilidad pública debe esperar a un hito técnico con más valor.
+- Week 1 puede ir adelantada técnicamente sin mover todo el roadmap: Week 1.5 prepara Mini GPT sin cambiar el alcance.
 
 ## What failed or blocked me
 
--
+- No hubo bloqueo técnico en setup local: `pytest` y `ruff` pasaron.
+- El riesgo principal es confundir avance rápido con permiso para abrir más scope.
+- La publicación pública queda pospuesta de forma intencional.
 
 ## Energy and recovery
 
