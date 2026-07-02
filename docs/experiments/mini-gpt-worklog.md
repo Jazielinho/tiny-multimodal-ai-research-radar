@@ -27,6 +27,33 @@ Next human task:
 
 Implement Task 01: tokenizer and data-loader baseline.
 
+## 2026-07-02 — Task 01 tokenizer and data-loader
+
+### What changed
+
+- Added `CharTokenizer` for character-level tokenization.
+- Added tokenizer tests for roundtrip encoding, vocabulary size and integer IDs.
+- Added `load_text` for UTF-8 text loading.
+- Added `train_val_split` for deterministic train/validation splits.
+- Added `make_batch` for next-token prediction batches.
+- Added data-loader tests for fixture loading, split behavior, batch shapes, shifted targets, deterministic seeds and short datasets.
+
+### Commands run
+
+```bash
+.\.venv\Scripts\python.exe -m pytest
+.\.venv\Scripts\python.exe -m ruff check .
+```
+
+### Result
+
+- `pytest`: 13 passed.
+- `ruff check .`: All checks passed.
+
+### Next step
+
+Start the next Mini GPT task only after defining its scope. Do not add embeddings, attention or a training loop to Task 01.
+
 ## Template
 
 ### Date
