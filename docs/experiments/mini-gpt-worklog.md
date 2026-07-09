@@ -54,6 +54,41 @@ Implement Task 01: tokenizer and data-loader baseline.
 
 Start the next Mini GPT task only after defining its scope. Do not add embeddings, attention or a training loop to Task 01.
 
+## 2026-07-09 — Task 02 bigram baseline
+
+### What changed
+
+- Added `BigramLanguageModel` as the first minimal trainable Mini GPT baseline.
+- Added a learnable lookup table that maps token IDs to next-token logits.
+- Added optional cross-entropy loss when targets are provided.
+- Added model tests for logits shape, scalar loss and invalid vocabulary size.
+
+### Commands run
+
+```bash
+.\.venv\Scripts\python.exe -m pytest
+.\.venv\Scripts\python.exe -m ruff check .
+```
+
+### Result
+
+- `pytest`: 16 passed.
+- `ruff check .`: All checks passed.
+
+### Evidence
+
+- `src/research_radar/mini_gpt/model.py`
+- `tests/test_mini_gpt_model.py`
+
+### Decision
+
+- Keep Task 02 limited to the bigram baseline, logits and loss.
+- Do not add attention, positional embeddings, generation or a training loop in this task.
+
+### Next step
+
+Define the next Mini GPT task before implementing causal attention or GPT-style embeddings.
+
 ## Template
 
 ### Date
