@@ -89,6 +89,41 @@ Start the next Mini GPT task only after defining its scope. Do not add embedding
 
 Define the next Mini GPT task before implementing causal attention or GPT-style embeddings.
 
+## 2026-07-23 — Task 03 bigram training smoke test
+
+### What changed
+
+- Added `train_step` for one CPU optimization step.
+- Added a check that the model returns a loss before backpropagation.
+- Added tests for finite loss and model parameter updates.
+
+### Commands run
+
+```bash
+.\.venv\Scripts\python.exe -m pytest
+.\.venv\Scripts\python.exe -m ruff check .
+```
+
+### Result
+
+- `pytest`: 18 passed.
+- `ruff check .`: All checks passed.
+
+### Evidence
+
+- `src/research_radar/mini_gpt/training.py`
+- `tests/test_mini_gpt_training.py`
+- `docs/experiments/mini-gpt-task-03-bigram-training-smoke-test.md`
+
+### Decision
+
+- Keep Task 03 limited to one optimization step.
+- Do not add a longer training loop, generation, positional embeddings, attention or transformer blocks.
+
+### Next step
+
+Prepare a clean Task 03 commit, then define the next Mini GPT task before implementing it.
+
 ## Template
 
 ### Date

@@ -97,31 +97,41 @@ Crear `docs/experiments/mini-gpt-plan.md` con objetivo, alcance, dataset candida
 
 ## Energy and recovery
 
-- Average energy, 1-5:
-- Sleep, 1-5:
-- CrossFit/lesions:
-- Heat impact:
+- Average energy, 1-5: 3
+- Sleep, 1-5: 3
+- CrossFit/lesions: Continue protecting shoulder and recovery. Do not add more load just to force sprint progress.
+- Heat impact: High on several days. It required minimum mode and avoiding heavy study at night.
 
 ## Score
 
 | Area | Score |
 |---|---:|
-| Deep AI work |  |
-| Code/repo |  |
-| Documentation |  |
-| English |  |
-| Speaking/oratory |  |
-| Public content |  |
-| Health/family/sleep |  |
+| Deep AI work | 3 |
+| Code/repo | 4 |
+| Documentation | 4 |
+| English | 2 |
+| Speaking/oratory | 1 |
+| Public content | 2 |
+| Health/family/sleep | 3 |
 
 ## Next week adjustment
 
 Keep:
+- Morning or focused AI blocks.
+- Evidence-based work: commit, tests and worklog.
+- Small tasks before complex model work.
 
 Cut:
+- Guilt-driven recovery.
+- Reading without applying.
+- Starting new architecture before defining scope.
 
 Add:
+- One short review block after each technical task.
+- One clear next issue before implementing.
 
 Main risk:
+- Jumping from bigram baseline to transformer too fast.
 
 Recommended mode:
+- Normal if energy is good; minimum if sleep, heat or stomach symptoms are bad.
